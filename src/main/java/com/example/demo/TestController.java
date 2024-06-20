@@ -9,4 +9,8 @@ public class TestController {
     public boolean health(){
         return true;
     }
+    @GetMapping("/api/version")
+    public String version(){
+        return "V3";
+    }
 }
